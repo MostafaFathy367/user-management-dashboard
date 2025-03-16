@@ -1,0 +1,62 @@
+import { createI18n } from 'vue-i18n';
+
+const messages = {
+  en: {
+    userProfile: 'User Profile',
+    name: 'Name',
+    role: 'Role',
+    status: 'Status',
+    dateJoined: 'Date Joined',
+    edit: 'Edit',
+    save: 'Save',
+    cancel: 'Cancel',
+    delete: 'Delete',
+    userSaved: 'User saved successfully!',
+    deleteConfirm: 'Are you sure you want to delete this user?',
+    warning: 'Warning',
+    yes: 'Yes',
+    no: 'No',
+    userDeleted: 'User deleted successfully!',
+    deleteCanceled: 'Delete canceled',
+    language: 'Language',
+    dashboard: 'User Management Dashboard',
+    userList: "User List",
+    searchByName: "Search By Name",
+    exportCSV: 'Export to CSV',
+    exportAllCSV: 'Export all CSV',
+    exportPageCSV: 'Export page CSV',
+  },
+  ar: {
+    userProfile: 'ملف المستخدم',
+    name: 'الاسم',
+    role: 'الدور',
+    status: 'الحالة',
+    dateJoined: 'تاريخ الانضمام',
+    edit: 'تعديل',
+    save: 'حفظ',
+    cancel: 'إلغاء',
+    delete: 'حذف',
+    userSaved: 'تم حفظ المستخدم بنجاح!',
+    deleteConfirm: 'هل أنت متأكد من حذف هذا المستخدم؟',
+    warning: 'تحذير',
+    yes: 'نعم',
+    no: 'لا',
+    userDeleted: 'تم حذف المستخدم بنجاح!',
+    deleteCanceled: 'تم إلغاء الحذف',
+    language: 'اللغة',
+    dashboard: 'لوحة إدارة المستخدمين',
+    UserList: 'قائمة المستخدمين',
+    searchByName: "بحث بالاسم",
+    exportCSV: 'تصدير إلى CSV',
+    exportAllCSV: 'تصدير الكل CSV',
+    exportPageCSV: 'تصدير صفحة CSV',
+  },
+};
+
+export const i18n = createI18n({
+  locale: 'en',
+  fallbackLocale: 'en',
+  messages,
+});
+
+export default i18n;
