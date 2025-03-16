@@ -2,8 +2,8 @@
 
 ## Setup
 1. Clone the repository
-2. Run `npm install`
-3. Run `npm run dev`
+2. Run `yarn install`
+3. Run `yarn dev`
 
 ## Features
 - User List with pagination, search, filtering, and sorting
@@ -20,5 +20,5 @@
 6. **Offline**: Service workers and local storage with Pinia.
 
 ## Run Tests
-- Unit: `npm run test:unit`
-- E2E: `npm run test:e2e`
+- Unit: `yarn test:unit`
+- E2E: `yarn test:e2e:open`

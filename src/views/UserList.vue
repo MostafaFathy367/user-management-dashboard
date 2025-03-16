@@ -42,9 +42,9 @@
         <el-option :label="$t('inactive')" value="inactive" />
       </el-select>
       <el-dropdown placement="bottom" @command="handleExportCSV">
-        <span>
+        <el-button>
           {{ $t("exportCSV") }}
-        </span>
+        </el-button>
         <template #dropdown>
           <el-dropdown-menu>
             <el-dropdown-item command="all">{{

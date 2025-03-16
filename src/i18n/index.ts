@@ -25,6 +25,8 @@ const messages = {
     exportCSV: 'Export to CSV',
     exportAllCSV: 'Export all CSV',
     exportPageCSV: 'Export page CSV',
+    active: "Active",
+    inactive: "Inactive",
   },
   ar: {
     userProfile: 'ملف المستخدم',
@@ -50,6 +52,8 @@ const messages = {
     exportCSV: 'تصدير إلى CSV',
     exportAllCSV: 'تصدير الكل CSV',
     exportPageCSV: 'تصدير صفحة CSV',
+    active: "نشط",
+    inactive: "موقوف"
   },
 };
 
